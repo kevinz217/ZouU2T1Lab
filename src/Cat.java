@@ -15,7 +15,12 @@ public class Cat {
 
     // method that introduces the Cat
     public void introduce() {
-        System.out.println("Hello my name is " + name);
+        if (age > 7) {
+            System.out.println("Hello my name is " + name + " and I am a older cat");
+        } else
+        {
+            System.out.println("Hello my name is " + name + " and I am a younger cat");
+        }
     }
 
     // method that prints Cat info
