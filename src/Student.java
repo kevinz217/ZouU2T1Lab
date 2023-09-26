@@ -1,7 +1,9 @@
 public class Student {
 
     private String sName;
+
     private int gradeNum;
+
     private String ID;
 
     public Student(String studentName, int studentGrade, String studentID) {
