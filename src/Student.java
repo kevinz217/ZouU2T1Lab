@@ -12,7 +12,7 @@ public class Student {
 
     public void Signin() {
         System.out.println("Hi! My name is " + sName + "and I am signing in!");
-        if (gradeNum = 9) {
+        if (gradeNum .equals 9) {
             System.out.println("I am a freshman!");
         }
         if (gradeNum = 10) {
